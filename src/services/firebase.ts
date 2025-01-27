@@ -5,7 +5,7 @@ import { MenuItem, Order } from "../entities/entitites";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDfo5bggRrCNUILVdHH57iJIsNOX2OH9Kc",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "tienda-comida-1a7e2.firebaseapp.com",
   databaseURL:
     "https://tienda-comida-1a7e2-default-rtdb.europe-west1.firebasedatabase.app",
